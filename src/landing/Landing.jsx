@@ -52,6 +52,11 @@ export default function Landing() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Con el menú abierto no se scrollea la página de fondo
+  useEffect(() => {
+    document.body.style.overflow = menu ? 'hidden' : '';
+  }, [menu]);
+
   return (
     <>
       <header className={`nav ${scrolled ? 'nav--solid' : ''} ${menu ? 'nav--open' : ''}`}>

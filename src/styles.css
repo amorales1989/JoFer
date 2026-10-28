@@ -101,6 +101,8 @@ h1, h2, h3, p { margin: 0; }
   }
   .nav__links a { font-size: 28px; font-weight: 800; letter-spacing: -.01em; }
   .nav--open .nav__links { opacity: 1; pointer-events: auto; }
+  /* backdrop-filter convierte al nav en el contenedor de los fixed: con el menú abierto se quita para que cubra toda la pantalla */
+  .nav--open { backdrop-filter: none; background: transparent; }
 }
 
 /* ===== Hero ===== */
