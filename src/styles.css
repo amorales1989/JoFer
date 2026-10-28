@@ -292,7 +292,7 @@ h1, h2, h3, p { margin: 0; }
 .empty--cb { font-weight: 600; }
 @media (max-width: 700px) {
   .cb__intro { grid-template-columns: 1fr; }
-  .cb__logo { max-width: 220px; }
+  .cb__logo { max-width: 220px; justify-self: center; }
 }
 
 /* ===== Tienda ===== */
