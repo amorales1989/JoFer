@@ -5,6 +5,7 @@ import CalentandoBancas from './CalentandoBancas.jsx';
 import Tienda from './Tienda.jsx';
 import Noticias from './Noticias.jsx';
 import Footer from './Footer.jsx';
+import MiniPlayer from './MiniPlayer.jsx';
 
 const LINKS = [
   ['#videos', 'Videos'],
@@ -13,7 +14,15 @@ const LINKS = [
   ['#noticias', 'Noticias'],
 ];
 
-const TRACKS = ['Hijo Pródigo', 'Esas Canciones', 'Sediento de Ti', 'Esperanza Infinita', 'Alma Perdida', 'Gracia Sublime Es (Bonus Track)'];
+const EP = [
+  ['Hijo Pródigo', 'p8O-6OxmE3w'],
+  ['Esas Canciones', 'vDdQh7wpBfQ'],
+  ['Sediento de Ti', 'ivHxVwIGa0w'],
+  ['Esperanza Infinita', 'yVM2s-71WZU'],
+  ['Alma Perdida', 'U9dfUYujiws'],
+  ['Gracia Sublime Es (Bonus Track)', '8lfaEywK-K4'],
+];
+const TRACKS = EP.map(([t]) => t);
 
 const REDES = [
   ['https://www.youtube.com/@JoFer.', 'YouTube'],
@@ -34,6 +43,7 @@ export default function Landing() {
   const { videos, productos, noticias, cargando } = useDatos();
   const [menu, setMenu] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [enCurso, setEnCurso] = useState(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -113,9 +123,28 @@ export default function Landing() {
                 <img src="/img/vinculos-banner.jpg" alt="Arte del EP Vínculos" loading="lazy" />
               </figure>
               <ol className="tracklist">
-                {TRACKS.map((t, i) => (
-                  <li key={t}><span>{String(i + 1).padStart(2, '0')}</span>{t}</li>
-                ))}
+                {EP.map(([t, id], i) => {
+                  const sonando = enCurso?.id === id;
+                  return (
+                    <li key={id}>
+                      <button
+                        className={`tracklist__btn${sonando ? ' is-playing' : ''}`}
+                        onClick={() => setEnCurso(sonando ? null : { id, titulo: t })}
+                        aria-label={sonando ? `Detener ${t}` : `Escuchar ${t}`}
+                      >
+                        <span>{String(i + 1).padStart(2, '0')}</span>
+                        <strong>{t}</strong>
+                        <i className="tracklist__play" aria-hidden="true">
+                          {sonando ? (
+                            <svg viewBox="0 0 24 24"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor" /></svg>
+                          ) : (
+                            <svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor" /></svg>
+                          )}
+                        </i>
+                      </button>
+                    </li>
+                  );
+                })}
               </ol>
             </div>
           </div>
@@ -133,6 +162,7 @@ export default function Landing() {
       </main>
 
       <Footer links={LINKS} tracks={TRACKS} redes={REDES} />
+      {enCurso && <MiniPlayer {...enCurso} onClose={() => setEnCurso(null)} />}
     </>
   );
 }
