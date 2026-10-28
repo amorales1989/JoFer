@@ -90,7 +90,7 @@ export default function Landing() {
                 El primer EP de <strong>JoFer</strong>. Seis canciones sobre los vínculos que nos sostienen.
               </p>
               <div className="hero__ctas">
-                <a href="#videos" className="btn btn--light">▶ Escuchar el EP</a>
+                <a href="#vinculos" className="btn btn--light">▶ Escuchar el EP</a>
                 <a href="#calentando-bancas" className="btn btn--ghost">Calentando Bancas</a>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function Landing() {
           </div>
         </section>
 
-        <section className="vinculos">
+        <section id="vinculos" className="vinculos">
           <div className="wrap vinculos__grid">
             <div>
               <p className="eyebrow eyebrow--coral">Nuestro primer EP</p>
