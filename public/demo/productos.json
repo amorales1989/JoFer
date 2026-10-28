@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera Vínculos",
+    "descripcion": "Algodón peinado con el arte del EP Vínculos en el frente. Talles S a XXL.",
+    "precio": "$22.000",
+    "imagen": "/demo/uploads/seed-remera.jpg",
+    "link_compra": "https://www.instagram.com/jofer.jf/",
+    "marca": "jofer",
+    "creado_en": "2026-10-28 20:08:27"
+  },
+  {
+    "id": 2,
+    "nombre": "Buzo JoFer",
+    "descripcion": "Buzo oversize con capucha y JOFER bordado en el pecho.",
+    "precio": "$48.000",
+    "imagen": "/demo/uploads/seed-buzo.jpg",
+    "link_compra": "https://www.instagram.com/jofer.jf/",
+    "marca": "jofer",
+    "creado_en": "2026-10-27 20:08:27"
+  },
+  {
+    "id": 3,
+    "nombre": "Póster Vínculos",
+    "descripcion": "Impresión 50×70 cm en papel mate con el tracklist del EP.",
+    "precio": "$12.000",
+    "imagen": "/demo/uploads/seed-poster.jpg",
+    "link_compra": "https://www.instagram.com/jofer.jf/",
+    "marca": "jofer",
+    "creado_en": "2026-10-26 20:08:27"
+  },
+  {
+    "id": 4,
+    "nombre": "Pack de stickers",
+    "descripcion": "Seis stickers, uno por cada canción de Vínculos.",
+    "precio": "$4.500",
+    "imagen": "/demo/uploads/seed-stickers.jpg",
+    "link_compra": "https://www.instagram.com/jofer.jf/",
+    "marca": "jofer",
+    "creado_en": "2026-10-25 20:08:27"
+  },
+  {
+    "id": 5,
+    "nombre": "Remera Calentando Bancas",
+    "descripcion": "La oficial del asado y podcast. Logo a color en el frente.",
+    "precio": "$20.000",
+    "imagen": "/demo/uploads/seed-cb-remera.jpg",
+    "link_compra": "https://www.instagram.com/jofer.jf/",
+    "marca": "cb",
+    "creado_en": "2026-10-24 20:08:27"
+  },
+  {
+    "id": 6,
+    "nombre": "Gorra Calentando Bancas",
+    "descripcion": "Gorra trucker con logo bordado. Talle único ajustable.",
+    "precio": "$16.000",
+    "imagen": "/demo/uploads/seed-cb-gorra.jpg",
+    "link_compra": "https://www.instagram.com/jofer.jf/",
+    "marca": "cb",
+    "creado_en": "2026-10-23 20:08:27"
+  },
+  {
+    "id": 7,
+    "nombre": "Mate Calentando Bancas",
+    "descripcion": "Para la previa de cada episodio. Calabaza forrada con logo grabado.",
+    "precio": "$14.000",
+    "imagen": "/demo/uploads/seed-cb-mate.jpg",
+    "link_compra": "https://www.instagram.com/jofer.jf/",
+    "marca": "cb",
+    "creado_en": "2026-10-22 20:08:27"
+  }
+]

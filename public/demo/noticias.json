@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "titulo": "Así se vivió nuestra presentación en el Stream QHJ",
+    "resumen": "Presentamos Vínculos en vivo en San Fernando y compartimos nuestra historia en una entrevista.",
+    "cuerpo": "Tuvimos el privilegio de presentar las canciones de Vínculos en vivo en el Stream QHJ, en San Fernando.\n\nAdemás de tocar, contamos cómo pasamos de ser compañeros de banco a los 6 años a cumplir este gran sueño, los referentes que nos marcaron y la historia detrás de la banda. Los mejores momentos están en nuestro canal de YouTube.",
+    "imagen": "/demo/uploads/seed-news-stream.jpg",
+    "fecha": "2026-10-23",
+    "creado_en": "2026-10-28 20:08:27"
+  },
+  {
+    "id": 2,
+    "titulo": "Una semana de Vínculos",
+    "resumen": "Ya pasó una semana desde el estreno y el corazón explota de agradecimiento.",
+    "cuerpo": "¡Ya pasó una semana desde que estrenamos Vínculos y el corazón explota de agradecimiento!\n\nGracias a cada uno de ustedes por escuchar, compartir y hacer suyas estas canciones. Ya forman parte de esta gran familia que es JOFER.",
+    "imagen": "/demo/uploads/seed-news-semana.jpg",
+    "fecha": "2026-10-08",
+    "creado_en": "2026-10-28 20:08:27"
+  },
+  {
+    "id": 3,
+    "titulo": "Vínculos, nuestro primer EP, ya está disponible",
+    "resumen": "Seis canciones sobre la amistad, el perdón y la fe. Disponible en todas las plataformas digitales.",
+    "cuerpo": "Vínculos es nuestro primer EP oficial y ya está disponible en todas las plataformas digitales.\n\nSon seis canciones: Hijo Pródigo, Esas Canciones, Sediento de Ti, Esperanza Infinita, Alma Perdida y, como bonus track, Gracia Sublime Es. Cada una cuenta una historia de los vínculos que nos sostienen: con Dios, con la familia y con los amigos.\n\nProducción, mezcla y masterización: Ignacio Irusta (@atalalla) y Matías Di Filippo. Visualizers: Isaac Rosales. Composiciones de Fernando Cordone, Jorge Silveyra y Leonardo Benitez.\n\nPodés escuchar el EP completo acá mismo, en la sección de videos.",
+    "imagen": "/demo/uploads/seed-yt-p8O-6OxmE3w.jpg",
+    "fecha": "2026-10-01",
+    "creado_en": "2026-10-28 20:08:27"
+  },
+  {
+    "id": 4,
+    "titulo": "Calentando Bancas Ep. 3: Compromiso y Responsabilidad",
+    "resumen": "Empanadas al disco, datos de nuestra realidad y la historia del profeta Elías.",
+    "cuerpo": "En el tercer episodio de Calentando Bancas nos metimos en la cocina para armar unas empanadas al disco mientras charlábamos sobre un tema que nos atraviesa como sociedad: el compromiso y la responsabilidad.\n\nHablamos del miedo al fracaso, la cultura de lo descartable y los desafíos en las parejas, y cerramos con la historia de Elías: su victoria, la cueva y el silbo apacible de Dios llamándolo a volver al propósito.",
+    "imagen": "/demo/uploads/seed-yt-PbBvpYxZ-XU.jpg",
+    "fecha": "2026-09-16",
+    "creado_en": "2026-10-28 20:08:27"
+  },
+  {
+    "id": 5,
+    "titulo": "JoFer desde adentro: nuestra historia",
+    "resumen": "Un especial para contarles cómo nació el dúo y todo lo que se viene.",
+    "cuerpo": "En este especial abrimos el corazón para contarles la historia de JoFer: desde nuestros inicios en la escuelita dominical a los 6 años, pasando por los desafíos de la pandemia, hasta el proceso creativo que nos define hoy.\n\nJoFer no es solo música: es una amistad forjada a prueba de todo, con temperamentos opuestos pero un mismo propósito, llevar un mensaje de fe, esperanza y amor fuera de las estructuras tradicionales.",
+    "imagen": "/demo/uploads/seed-yt-s8Ui32g_7KE.jpg",
+    "fecha": "2026-07-10",
+    "creado_en": "2026-10-28 20:08:27"
+  },
+  {
+    "id": 6,
+    "titulo": "Nace Calentando Bancas: asado y podcast",
+    "resumen": "Estrenamos una nueva sección en el canal: charlas alrededor de la parrilla.",
+    "cuerpo": "Sentarse alrededor de una parrilla es una de las costumbres más nuestras. En Calentando Bancas dejamos de \"calentar bancas sin hacer nada\" y profundizamos en temas que nos rodean cotidianamente.\n\nEn el primer episodio debatimos sobre la identidad: unos mates en la previa, anécdotas bien argentinas y una mirada desde nuestro caminar cristiano. ¡Prendé el fuego, armate un mate y sumate a la charla!",
+    "imagen": "/demo/uploads/seed-yt-jRT0-iWp_kw.jpg",
+    "fecha": "2026-06-03",
+    "creado_en": "2026-10-28 20:08:27"
+  }
+]
